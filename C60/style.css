@@ -92,4 +92,8 @@ iframe {
 }
 #inspoImg {
 	border: black double 6px;
+	transform: transition .2s;
+}
+#inspoImg:hover {
+	transform: scale(0.9);
 }
