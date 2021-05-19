@@ -1,0 +1,95 @@
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+body {
+	text-align: center;
+	height: 100%;
+	background: rgb(255,0,0);
+	background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+.btn-outline-dark a {
+	text-decoration: none;
+	color: black;
+}
+.btn-outline-dark a:hover {
+	text-decoration: none;
+}
+.btn-outline-dark:hover a {
+	color: white;
+}
+* {
+	user-select: none;
+}
+p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+	cursor: text;
+}
+#title {
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 100%)
+}
+#desc, #work, #inspo, #contacts {
+	padding-top: 150px;
+}
+#aboutHeader {
+	border-bottom-style: solid;
+	border-bottom-width: 20;
+}
+#menu {
+	list-style-type: none;
+	float: right;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding: 5px;
+	background-color: rgb(128, 150, 150);
+	margin: 0;
+}
+#menu > li {
+	padding: 5px;
+	font-family: "Noto Sans JP", sans-serif;
+	margin: 0;
+	border-right-style: solid;
+	border-right-color: #676;
+	border-right-width: 1px;
+	display: inline;
+}
+#menu > li:hover {
+	background-color: rgba(100, 100, 100, 1);
+}
+#menu > li > a {
+	color: black;
+}
+#menu > li > a:hover {
+	text-decoration: none;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+.no-js {
+	border: black groove 1px;
+}
+iframe {
+	margin: 5px;
+}
+#inspo p {
+	visibility: hidden;
+	position: relative;
+	bottom: 225px;
+	font-family: "Pattaya", sans-serif;
+	color: gold;
+}
+#inspo:hover p {
+	visibility: visible;
+}
+#inspoImg {
+	border: black double 6px;
+}
