@@ -1,0 +1,46 @@
+.nl {
+    color: #9d9d9d !important;
+    font-size: 18px;
+    line-height: 20px !important;
+    height: 50px;
+}
+.nl:hover {
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+#rlntxt {
+    background-color: deepskyblue;
+}
+#sxhsif {
+    width: 100%;
+    height: 350px;
+}
+iframe {
+    border: none;
+}
+img {
+    height: 350px;
+    width: 350px;
+}
+.travel_mainDiv {
+    width: auto;
+}
+.movie_head {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.movie_head i {
+    float: right;
+}
+html {
+    scroll-behavior: smooth;
+}
+.wsn {
+    border-radius: 10px;
+}
+#newlg li {
+    margin: 10px 0px;
+}
