@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(220, 50, 20)
+}
+
+#dp1, #dp2 {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0px;
+}
