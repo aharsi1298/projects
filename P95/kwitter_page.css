@@ -1,0 +1,24 @@
+.container {
+  background-color: rgb(26, 128, 230);
+  height: 100%;
+  width: 100%;
+}
+
+#logout {
+  float: right;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#rooms {
+  background-color: #fff;
+  border-radius: 5px;
+}
