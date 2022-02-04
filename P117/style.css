@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(192, 147, 51);
+}
+
+#score {
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+#timer {
+    font-size: 18px;
+    float: right;
+    margin-right: 80px;
+}
+
+#sketchTarget {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(63, 108, 204);
+}
