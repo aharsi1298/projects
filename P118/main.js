@@ -13,6 +13,8 @@ var drawn_sketch = "";
 var answer_holder = "";
 var score = 0;
 
+updateCanvas();
+
 function updateCanvas() {
     background("white");
     sketch = quick_draw_data_set[Math.floor(Math.random() * ((quick_draw_data_set.length - 1) - 0 + 1)) + 0];
