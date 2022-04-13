@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://lindasingerpianostudio.com/wp-content/uploads/2014/02/Lindas-Background-Image31.jpg");
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+}
+
+canvas {
+    border: 1px black bold;
+    box-shadow: 1px;
+    padding: 5px;
+    margin: 5px;
+}
