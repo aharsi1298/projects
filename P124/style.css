@@ -1,0 +1,21 @@
+.heading {
+    box-shadow: 10px 10px 10px black;
+    width: 99%;
+    margin: 0.5%;
+}
+
+#copyright-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Comic Sans MS', Arial;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+
+canvas {
+    border: 10px bold grey;
+}
