@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Lens vs. Mobilenet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <ol>
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="rubik cube.jpg" class="img-responsive" />
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span>Rubik's Cube</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Mobilenet Model</b> -
+                <span>lighter, light, igniter, ignitor</span>
+            </h5>
+
+            <div class="mini_result col-xs-12">
+                <h4>Result - GOOGLE LENS is more accurate</h4>
+                <hr />
+                <h4></h4>
+            </div>
+        </div>
+
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="fidget spinner.jpg" class="img-responsive" />
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span>Fidget Spinner Rainbow 7 Blades</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Mobilenet Model</b> -
+                <span>mask</span>
+            </h5>
+
+            <div class="mini_result col-xs-12">
+                <h4>Result - GOOGLE LENS is more accurate</h4>
+                <hr />
+                <h4></h4>
+            </div>
+        </div>
+
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="clock.jpg" class="img-responsive" />
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span>Ajanta Analog 25 Cm X 25 Cm Wall Clock</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Mobilenet Model</b> -
+                <span>wall clock</span>
+            </h5>
+
+            <div class="mini_result col-xs-12">
+                <h4>Result - Both are correct</h4>
+                <hr />
+                <h4></h4>
+            </div>
+        </div>
+
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="pencil box.jpg" class="img-responsive" />
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span>Rm Enterprises Spiderman Spiderman Art Plastic Pencil Box</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Mobilenet Model</b> -
+                <span>pencil box, pencil case</span>
+            </h5>
+
+            <div class="mini_result col-xs-12">
+                <h4>Result - Both are correct</h4>
+                <hr />
+                <h4></h4>
+            </div>
+        </div>
+
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image - </b>
+                <img src="tiffin box.jpg" class="img-responsive" />
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> -
+                <span>Soapy Twist Unrefined Shea Butter (100g)</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Mobilenet Model</b> -
+                <span>water bottle</span>
+            </h5>
+
+            <div class="mini_result col-xs-12">
+                <h4>Result - Both are incorrect</h4>
+                <hr />
+                <h4></h4>
+            </div>
+        </div>
+    </ol>
+
+    <div class="conclusion btn btn-warning">
+        I have tested 5 images.<br /> GOOGLE LENS predicted 4 correctly while MOBILENET predicted 2 correctly.<br /> So according to my case study GOOGLE LENS is more accurate
+    </div>
+</body>
+
+</html>

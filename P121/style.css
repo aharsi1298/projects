@@ -1,0 +1,11 @@
+.conclusion {
+    border-radius: 5px;
+    text-align: center;
+    width: 99%;
+    margin: 0.5%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
