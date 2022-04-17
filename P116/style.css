@@ -1,0 +1,12 @@
+.heading {
+    width: 100%;
+}
+
+.heading h3 {
+    margin: 5px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 25px;
+}
