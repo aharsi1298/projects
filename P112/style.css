@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(155, 2, 83);
+    color: white;
+}
+
+#grid-container {
+    display: grid;
+    /*gap: 20px;*/
+    grid-template-columns: 640;
+}
+
+#webcamdiv,
+#predictiondiv,
+#snapshotdiv {
+    display: grid;
+    /*column-gap: 10px;*/
+    grid-template-rows: 20px;
+}
+
+#webcamdiv {
+    grid-column: 1;
+}
+
+#predictiondiv {
+    grid-column: 2;
+}
+
+#snapshotdiv {
+    grid-column: 3;
+}
+
+#webcamdiv *,
+#predictiondiv *,
+#snapshotdiv * {
+    padding: 10px;
+}
