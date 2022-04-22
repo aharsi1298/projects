@@ -7,6 +7,8 @@ var rightWristY = 0;
 var playing = false;
 var result;
 
+var video;
+
 function preload() {
     song1 = loadSound("song.mp3");
     song2 = loadSound("song.mp3");
@@ -15,14 +17,14 @@ function preload() {
 function setup() {
     canvas = createCanvas(600, 500);
     canvas.center();
-    var video = createCapture(VIDEO);
+    video = createCapture(VIDEO);
     video.hide();
     var poseNet = ml5.poseNet(video, modelLoaded);
     poseNet.on("pose", GUTPoses);
 }
 
 function draw() {
-    image(capture, 0, 0, 600, 500);
+    image(video, 0, 0, 600, 500);
     fill("#FF0000");
     stroke("#FF0000");
     playing = song1.isPlaying() ? true : song2.isPlaying();
