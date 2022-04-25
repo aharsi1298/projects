@@ -1,0 +1,25 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(224, 233, 221);
+}
+
+.header-div p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-div button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    width: 125px;
+    letter-spacing: 1px;
+}
+
+.copy_right_footer {
+    background-color: rgb(100, 100, 100);
+    color: rgb(206, 206, 206);
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
