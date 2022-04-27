@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+
+ul {
+    list-style: none;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 48;
+    margin: 0 0 20px;
+    width: 100%;
+}

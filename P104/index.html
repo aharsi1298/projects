@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Face Recognition Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="btn btn-warning heading">Face Recognition Web App</div>
+        <ul>
+            <li><b>1. Me</b></li>
+            <li><b>2. My Mother</b></li>
+        </ul>
+        <div class="side-by-side">
+            <div>
+                <video id="webcam" autoplay></video>
+            </div>
+            <div>
+                <canvas id="image"></canvas>
+            </div>
+        </div>
+
+        <div class="btn btn-info" onclick="snap()">Capture Image</div>
+        <div class="btn btn-info" onclick="predict()">Identify Image</div> <br /><br /><br />
+
+        <div class="btn btn-success">Family Member: <span id="fam"></span></div>
+        <div class="btn btn-success">Accuracy: <span id="accuracy"></span></div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
