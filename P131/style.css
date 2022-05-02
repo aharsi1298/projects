@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    width: 25%;
+    margin: auto;
+}
+
+li {
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a {
+    color: black !important;
+}
