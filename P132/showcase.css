@@ -1,0 +1,62 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    width: 25%;
+    margin: auto;
+}
+
+li {
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.back {
+    float: right;
+    margin: 5px;
+}
+
+#status {
+    display: block;
+    width: fit-content;
+    margin: 50px auto 0 !important;
+}
+
+#result {
+    display: block;
+    width: fit-content;
+    margin: 0 auto !important;
+}
+
+canvas {
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px white;
+    padding: 10px;
+    margin: 10px;
+}
