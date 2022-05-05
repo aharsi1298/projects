@@ -1,0 +1,25 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0;
+    color: white;
+}
+
+.heading:hover {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#status,
+#object_status {
+    margin-top: 20px;
+}
+
+canvas {
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 10px;
+    /* margin-top: 180px; */
+}
