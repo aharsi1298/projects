@@ -47,6 +47,11 @@ function modelLoaded() {
     console.log('PoseNet Is Initialized');
 }
 
+function preload() {
+    ball_touch_paddel = loadSound("ball_touch_paddel.wav");
+    missed = loadSound("missed.wav");
+}
+
 function gotPoses(results) {
     if (results.length > 0) {
 
@@ -90,7 +95,7 @@ function draw() {
         fill(250, 0, 0);
         stroke(0, 0, 250);
         strokeWeight(0.5);
-        paddle1Y = rightWristY;
+        paddle1Y = mouseY;
         rect(paddle1X, paddle1Y, paddle1, paddle1Height, 100);
 
 
@@ -165,10 +170,10 @@ function move() {
     if (ball.x - 2.5 * ball.r / 2 < 0) {
         if (ball.y >= paddle1Y && ball.y <= paddle1Y + paddle1Height) {
             ball.dx = -ball.dx + 0.5;
-
+            ball_touch_paddel.play();
         } else {
             pcscore++;
-
+            missed.play();
             reset();
             navigator.vibrate(100);
         }
@@ -181,7 +186,7 @@ function move() {
         stroke("white");
         textSize(25);
         text("Game Over!", width / 2, height / 2);
-        text("Reload the page!", width / 2, height / 2 + 30)
+        text("Press Restart button to play again!", width / 2, height / 2 + 30)
         noLoop();
         pcscore = 0;
     }
@@ -212,4 +217,10 @@ function paddleInCanvas() {
     }
 
 
+}
+
+function restart() {
+    pcscore = 0;
+    playerscore = 0;
+    loop();
 }
