@@ -1,0 +1,29 @@
+body {
+    background-color: #345bd1;
+    margin: 0;
+}
+
+#beginning-background {
+    /* background-color: #345bd1; */
+    background-image: url(background1.jpg);
+    background-size: cover;
+}
+
+#beginning {
+    padding: 50px 0;
+}
+
+#intro {
+    color: rgb(230, 230, 230);
+    margin: 0 auto;
+}
+
+#intro h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#intro p {
+    font-size: 24px;
+    text-align: justify;
+}
